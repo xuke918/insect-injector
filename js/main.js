@@ -27,12 +27,22 @@ var insects = [
     img: 'stag-beetle.jpg',
     family: 'Lucanidae',
     size: [5, 120],
+    food: {
+      eatsDung: false,
+      eatsPlants: true,
+      eatsInsects: false,
+    }
   },
   {
     name: 'Tortoise Beetle',
-    img: 'Tortoise Beetle',
+    img: 'tortoise-beetle.jpg',
     family: 'Cassidinae',
     size: [1, 18],
+    food: {
+      eatsDung: false,
+      eatsPlants: true,
+      eatsInsects: false,
+    }
   }
 ];
 
